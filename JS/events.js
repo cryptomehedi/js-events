@@ -96,13 +96,13 @@ const ClickText = document.getElementById('textP');
     });
 // delegate event 
 
-document.getElementById('add-item').addEventListener('click', function(){
-    const li = document.createElement('li');
-    li.innerText= 'New Item';
-    const parent = document.getElementById('item-container');
-    parent.appendChild(li);
-});
+// document.getElementById('add-item').addEventListener('click', function(){
+//     const li = document.createElement('li');
+//     li.innerText= 'New Item';
+//     const parent = document.getElementById('item-container');
+//     parent.appendChild(li);
+// });
 
-document.getElementById('item-container').addEventListener('click', function(event){
-    event.target.parentNode.removeChild(event.target)
-});
+// document.getElementById('item-container').addEventListener('click', function(event){
+//     event.target.parentNode.removeChild(event.target)
+// });
