@@ -90,7 +90,7 @@ const ClickText = document.getElementById('textP');
             deleteBtn.setAttribute('disabled', true)
         }
     });
-    keyup
+    // change
         document.getElementById('delete-confirm').addEventListener('change', function(){
         document.body.style.backgroundColor= 'white';
     });
