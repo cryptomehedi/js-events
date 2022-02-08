@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h1>
+        Event Niye click bazi
+    </h1>
+    <button onclick="document.write('you are fool')">
+        Don't click me
+    </button>
+    <button onclick="makeRed()">
+        Click me Red
+    </button>
+    <button onclick="makeGreen()">
+        Click me Green
+    </button>
+    <button id="blue-btn">
+        Click me Blue
+    </button>
+    <button id="orange-btn">
+        Click me Orange
+    </button>
+    <button id="gold-btn">
+        Click me Gold
+    </button>
+    <button id="HotPink-btn">
+        Click me HotPink
+    </button>
+    <button id="SlateGray-btn">
+        Click me SlateGray
+    </button>
+    <hr style="margin-top: 50px; margin-bottom: 50px;">
+    <section style="padding: 20px;">
+        <h2 id="textP"></h2>
+        <input id="input-text" type="text">
+        <button id="update-name">update</button>
+        <button onclick="handleJustFunctionClick()">Just Function</button>
+        <button id="directHandler">Direct Add Event Listener</button>
+    </section>
+    <hr style="margin-top: 50px; margin-bottom: 50px;">
+    <h2>Add your Comment, Please!!</h2>
+    <section>
+        <h4>Your Comment</h4>
+        <div id="comment-container">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, suscipit corrupti. Odit blanditiis quia commodi laboriosam, fugit soluta delectus dolores!</p>
+            <p>Minus, qui consequuntur quam ducimus excepturi sapiente, fugiat doloribus, facilis iste sunt in laborum nesciunt obcaecati dolorum vero laudantium corporis.</p>
+        </div>
+        <div>
+            <textarea name="" id="new-comment" cols="50" rows="5"></textarea>
+            <br>
+            <button id="submit-comment">
+                Post
+            </button>
+        </div>
+    </section>
+    <hr style="margin-top: 50px; margin-bottom: 50px;">
+    <h2>More Events</h2>
+    <section>
+        <h3 id="message">Very Very Important Secret</h3>
+        <input id="delete-confirm" type="text" placeholder="Please type delete">
+        <button id="delete-button" disabled>Delete</button>
+    </section>
+    <hr style="margin-top: 50px; margin-bottom: 50px;">
+    <section>
+        <h2>Event Delegate</h2>
+        <ul id="item-container">
+        <li class="item">Lorem, ipsum.</li>
+        <li class="item">Quam, odio?</li>
+        <li class="item">Ea, obcaecati!</li>
+        <li class="item">Quae, dolorem?</li>
+        <li class="item">Porro, nesciunt.</li>
+        <li class="item">Deleniti, illum!</li>
+    </ul>
+    <button id="add-item">Add Item</button>
+    </section>
+    <script src="./JS/events.js"></script>
+</body>
+</html>

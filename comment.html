@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment</title>
+</head>
+<body>
+    <h2>Add your Comment, Please!!</h2>
+    <section>
+        <h4>Your Comment</h4>
+        <div id="comment-container">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, suscipit corrupti. Odit blanditiis quia commodi laboriosam, fugit soluta delectus dolores!</p>
+            <p>Minus, qui consequuntur quam ducimus excepturi sapiente, fugiat doloribus, facilis iste sunt in laborum nesciunt obcaecati dolorum vero laudantium corporis.</p>
+        </div>
+        <div>
+            <textarea name="" id="new-comment" cols="50" rows="5"></textarea>
+            <br>
+            <button id="submit-comment">
+                Post
+            </button>
+        </div>
+    </section>
+    <!-- <script>
+        document.getElementById('submit-comment').addEventListener('click', function(){
+            // User comment 
+            const commentText= document.getElementById('new-comment');
+            // const userComment = commentText.value;
+            // create comment paragraph 
+            const newComment = document.createElement('p');
+            newComment.innerText = commentText.value;
+
+            const commentContainer = document.getElementById('comment-container');
+            commentContainer.appendChild(newComment);
+            commentText.value = '';
+        })
+    </script> -->
+    <!-- <script src="./JS/events.js"></script> -->
+    <script src="./JS/comment.js"></script>
+</body>
+</html>
