@@ -83,7 +83,7 @@ const ClickText = document.getElementById('textP');
     // keyup
         document.getElementById('delete-confirm').addEventListener('keyup', function(event){
             const deleteBtn = document.getElementById('delete-button')
-        if(event.target.value == 'delete'){
+        if(event.target.value == 'delete' || event.target.value == 'Delete'){
             deleteBtn.removeAttribute('disabled')
         }
         else{
